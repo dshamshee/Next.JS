@@ -1,15 +1,16 @@
+'use client'
 
-import Navigation from '@/components/Navigation';
-import Hero from '@/components/Hero';
-import About from '@/components/About';
-import Skills from '@/components/Skills';
-import Projects from '@/components/Projects';
-import Contact from '@/components/Contact';
-import Footer from '@/components/Footer';
+import Navigation from '@/components/Navigation'
+import Hero from '@/components/Hero'
+import About from '@/components/About'
+import Skills from '@/components/Skills'
+import Projects from '@/components/Projects'
+import Contact from '@/components/Contact'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen bg-gradient-to-b from-gray-900 via-black to-gray-900">
       <Navigation />
       <section id="home" className="relative">
         <Hero />
@@ -28,5 +29,5 @@ export default function Home() {
       </section>
       <Footer />
     </main>
-  );
+  )
 }
